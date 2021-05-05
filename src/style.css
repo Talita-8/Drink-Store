@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+.menu {
+    position: fixed;
+}
+.menu li {
+    width: 14rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 0.01rem solid;
+    background-color: #551d0c;
+    color: white;
+}
+#header {
+    background-color: #381919;
+    padding: 1rem;
+    font-weight: bolder;
+}
+#empty-item {
+    height: 70vh;
+    background: url("./images/wood.jpg");
+}
+
+.main-app {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 0 16rem;
+}
+
+.main-app form {
+    display: flex;
+    flex-flow: column;
+}
+
+.register-area {
+    width: 20rem;
+    padding: 1.2rem;
+    background-color: #461e1e;
+    color: antiquewhite;
+    font-weight: bolder;
+    border-radius: 1rem;
+}
+
+.register-area form {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.register-input {
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 0.7rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.price, .qtd {
+    width: 4.2rem;
+}
+
+.send-info {
+    background-color:#c14802;;
+    color: white;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.alert {
+    color: rgb(219, 19, 19);
+}
+
+.store-area {
+    width: 100%;
+}
+
+.itens-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.each-item{
+    font-size: x-large;
+    text-align: center;
+    padding: 1.3rem;
+    background: #461e1e;
+    color: wheat;
+    border-radius: 1rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.each-item ul {
+    list-style: none;
+}
+.image {
+    height: 20rem;
+    width: 16rem;
+    border-radius: 2rem;
+}
